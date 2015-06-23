@@ -82,12 +82,15 @@ ul.menu.nav.navbar-nav li a:hover {
 	float: left;
 	margin: 0px 8px 15px 4px;
 }
+
 .field-name-field-video a{
 	float: left;
 	margin: 0px 8px 15px 4px;
 }
+
+/**Submenu**/
+
 #block-menu-menu-submenu ul li{
     float: left;
-}
 
-/*----------------------------------------LO DE LUIS----------------------------------------------------------------------*/
+}
