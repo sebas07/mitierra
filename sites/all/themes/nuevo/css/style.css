@@ -1,0 +1,96 @@
+body{
+    background-color: #202020;
+}
+#zonaLogo{
+    background-color: white;
+    min-height: 120px;
+}
+.logo img {
+	margin-top: 25px;
+	margin-left: 150px;
+}
+#logoPeriodistas {
+    float: right;
+    margin-top: 10px;
+    margin-right: 165px;;
+}
+#navbar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #000000;
+    border-color: #000000;
+}
+ul.menu.nav.navbar-nav li a {
+    font-weight: bold;
+    color: #ffff00;
+}
+ul.menu.nav.navbar-nav li ul {
+    background-color: #000000;
+}
+ul.menu.nav.navbar-nav li a:active {
+    background-color: red;
+}
+ul.menu.nav.navbar-nav li a:visited {
+    background-color: #60676a;
+}
+ul.menu.nav.navbar-nav li a:hover {
+    background-color: #404040;
+    color: #ffffff;
+}
+.main-container {
+    background-color: white;
+}
+.view-ultimasnoticias .views-row {
+    padding: 25px 0px;
+    background: -webkit-linear-gradient(left top, #ffffff 90%, #888888); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ffffff 90%, #888888); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ffffff 90%, #888888); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #ffffff 90%, #e1e4e5); /* Standard syntax (must be last) */
+    /*#ffffff, #888888;*/
+}
+.footer{
+    margin-top: 0px;
+    background-color: #333333;
+    color: white;
+}
+#block-menu-menu-submenu a {
+    color: #ffff00;
+    font-weight: bold;
+    font-size: 15px;
+}
+#block-menu-menu-submenu a:hover {
+    background-color: #555555;
+}
+.contacto {
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.contacto h3 {
+    margin-top: 0px;
+}
+.redesSociales {
+    padding-left: 50px;
+}
+.redesSociales h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.views-field-field-imagen-redsocial img{
+    margin-right: 10px;
+}
+.field-name-field-galeriaimagenes a{
+	float: left;
+	margin: 0px 8px 15px 4px;
+}
+
+.field-name-field-video a{
+	float: left;
+	margin: 0px 8px 15px 4px;
+}
+
+/**Submenu**/
+
+#block-menu-menu-submenu ul li{
+    float: left;
+
+}
