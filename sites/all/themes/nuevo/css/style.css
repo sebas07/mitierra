@@ -32,6 +32,7 @@ ul.menu.nav.navbar-nav li a:active {
 }
 ul.menu.nav.navbar-nav li a:visited {
     background-color: #60676a;
+    color: #ffff00;
 }
 ul.menu.nav.navbar-nav li a:hover {
     background-color: #404040;
@@ -40,6 +41,13 @@ ul.menu.nav.navbar-nav li a:hover {
 .main-container {
     background-color: white;
 }
+.view-publicidadprincipal .views-row {
+    padding-bottom: 50px;
+    background: -webkit-linear-gradient(left top, #ffffff 80%, #888888); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ffffff 80%, #888888); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ffffff 80%, #888888); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #ffffff 80%, #e1e4e5); /* Standard syntax (must be last) */
+}
 .view-ultimasnoticias .views-row {
     padding: 25px 0px;
     background: -webkit-linear-gradient(left top, #ffffff 90%, #888888); /* For Safari 5.1 to 6.0 */
@@ -47,6 +55,15 @@ ul.menu.nav.navbar-nav li a:hover {
     background: -moz-linear-gradient(bottom right, #ffffff 90%, #888888); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, #ffffff 90%, #e1e4e5); /* Standard syntax (must be last) */
     /*#ffffff, #888888;*/
+}
+.view-ultimasnoticias .views-row h3 a {
+    color: #000000;
+}
+.ReadMoreLink a {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 5px;
 }
 .footer{
     margin-top: 0px;
@@ -60,6 +77,10 @@ ul.menu.nav.navbar-nav li a:hover {
 }
 #block-menu-menu-submenu a:hover {
     background-color: #555555;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffff00;
+    background-color: #60676a;
 }
 .contacto {
     padding-left: 30px;
@@ -91,3 +112,6 @@ ul.menu.nav.navbar-nav li a:hover {
 }
 
 /*----------------------------------------LO DE LUIS----------------------------------------------------------------------*/
+/*formato fecha*/
+/*tamanno imagenes (noticia y publicidad)*/
+/*alinear imagen noticia principal*/
